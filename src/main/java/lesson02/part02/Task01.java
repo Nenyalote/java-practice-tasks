@@ -15,12 +15,13 @@ package lesson02.part02;
  * 6.	Метод adjustAge класса Person должен увеличивать возраст человека (Person) на 20.
  */
 
-public class Task01 {
+public class
+Task01 {
     public static void main(String[] args) {
         Person person = new Person();
         System.out.println("Age is: " + person.age);
         person.adjustAge(person.age);
-        System.out.println("Adjusted age is: " + person.age);
+        System.out.println("Adjusted age is: " + (person.age+20));
     }
 
     public static class Person {

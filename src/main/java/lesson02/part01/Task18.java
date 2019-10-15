@@ -16,11 +16,20 @@ package lesson02.part01;
  */
 
 import java.io.*;
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class Task18 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Введите имя и два числа");
+
+        String name = reader.readLine();
+        String num1 = reader.readLine();
+        String num2 = reader.readLine();
+
+        System.out.println(name+" получает "+num1+" через "+num2+" лет");
 
     }
 }

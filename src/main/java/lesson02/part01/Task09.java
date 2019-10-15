@@ -22,7 +22,12 @@ package lesson02.part01;
 
 public class Task09 {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int i;
+        int res = 0;
+        for (i=1; i<4; i++) {
+            res=res+i;
+            System.out.println(res);
+        }
 
     }
 }
